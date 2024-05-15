@@ -26,28 +26,44 @@ background-color: wheat;
     .navbar{background-image: url(../imagenes-logos/imagen-de-fondo-1.png); height: fit-content;
     }
     .grilla-index{ display: grid;
-        grid-template-rows: 600px 250px 400px 1200px;
+        grid-template-rows: 800px 450px 700px 1200px;
         grid-template-columns: 100%;
         }
 
-    .index-1{border: 1px solid black;
-    background-image: url(../imagenes-logos/imagen-de-fondo-1.png); 
+    .index-1{ background-image: url(../imagenes-logos/panera-rosa-principal2.jpg); 
     grid-row: 1/3;
     grid-column: 1/3;}
     
 
-    .index-2{border: 1px solid black;}
+    .index-2{background-image: url(../imagenes-logos/imagen-de-fondo-2.png);
+    
+}
 
-    .index-3{border: 1px solid black;
-    
-    
-    
+
+    .index-3{}
+
+    .index-4{
+        background-image: url(../imagenes-logos/menu-carta-atras.jpg );
+        
+        }
+
+    .navbar-brand 
+    .navbar-brand{margin-top: 10px;
+        color: black;
+        font-size: 1.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        
+   .nav-item{ font-size: 1.5rem;
+    transition: 1s;}
+
+   .nav-item:hover { 
+        margin-top: 10px;
+        color: black;
+        font-size: 1.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: double;
     }
-
-    .index-4{border: 1px solid black;
-        background-image: url(../imagenes-logos/menu-carta-atras.jpg ) ;
-    }
-
 
     .link-index{text-decoration: none;
     list-style: none;
@@ -63,21 +79,17 @@ background-color: rosybrown;
 
 
 
-.menu-hamburguesa{display: none;}
+.imagen-logo1{ width: 230px;position: absolute;
+top: 100px}
 
 
 
-
-
-.imagen-logo1{ width: 230px;position: absolute; }
-
-
-
-.texto-index{font-family: "Lobster", sans-serif;
-    width: 85%;
-    align-content: center;
-    padding: 70px;
-    font-size: 2rem; 
+.texto-index{font-family: cursive;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    font-size: 2.8rem; 
+    
 }
 
 /* CONTACTENOS    */
